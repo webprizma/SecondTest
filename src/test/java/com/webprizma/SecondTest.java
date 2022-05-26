@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 public class SecondTest {
     @Test
     void TestFirst() {
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertFalse3 > 2);
     }
 
     @Test
     void TestSecond() {
-        Assertions.assertTrue(3 > 1);
+        Assertions.assertFalse(3 > 1);
     }
 }
